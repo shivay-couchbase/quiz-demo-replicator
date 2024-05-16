@@ -1,1 +1,1 @@
-# replicator
+# replicator-quiz-demo
