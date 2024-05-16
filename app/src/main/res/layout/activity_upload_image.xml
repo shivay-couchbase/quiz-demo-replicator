@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadImage"
+    android:gravity="center"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/upload_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="이미지 업로드"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"></Button>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/image_view"
+        android:layout_margin="20dp"
+        ></ImageView>
+
+    <Button
+        android:id="@+id/button_startquiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@android:color/holo_blue_light"
+        android:text="퀴즈 시작"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"></Button>
+
+
+
+</LinearLayout>

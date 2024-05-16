@@ -1,0 +1,152 @@
+[
+  {
+    "unique_id": 1,
+    "question": "Almost every Korean meal involves kimchi What is this?",
+    "optionOne": "fermented spicy cabbage",
+    "optionTwo": "rice",
+    "optionThree": "seasoned bean sprouts",
+    "optionFour": "soup",
+    "correctAns": 1,
+    "category": "Food"
+  },
+  {
+    "unique_id": 2,
+    "question": " Which noodle dish is primarily eaten in the summer?",
+    "optionOne": "kalguksu",
+    "optionTwo": "japchae",
+    "optionThree": "mul naengmyeon",
+    "optionFour": "ramyeon",
+    "correctAns": 3,
+    "category": "Food"
+  },
+  {
+    "unique_id": 3,
+    "question": "What is the main ingredient in the Indian sweet 'Gulab Jamun'?",
+    "optionOne": "Rice Flour",
+    "optionTwo": "Wheat Flour",
+    "optionThree": "Gram Flour",
+    "optionFour": "Milk Solids",
+    "correctAns": 4,
+    "category": "Food"
+  },
+  {
+    "unique_id": 4,
+    "question": "Which Indian dish is made from marinated paneer cooked in a spiced gravy?",
+    "optionOne": "Butter Chicken",
+    "optionTwo": "Chicken Tikka Masala",
+    "optionThree": "Palak Paneer",
+    "optionFour": "Shahi Paneer",
+    "correctAns": 4,
+    "category": "Food"
+  },
+  {
+    "unique_id": 5,
+    "question": "Which spice is commonly used in Indian cuisine and is known as the 'Queen of Spices'?",
+    "optionOne": "Cumin",
+    "optionTwo": "Turmeric",
+    "optionThree": "Cardamom",
+    "optionFour": "Saffron",
+    "correctAns": 4,
+    "category": "Food"
+  },
+  {
+    "unique_id": 6,
+    "question": "Which monument is called Blessing Scenery Palace",
+    "optionOne": "Gyeongbokgung Palace",
+    "optionTwo": "Statue of King Sejong",
+    "optionThree": "Sungnyemun Gate (Namdaemun)",
+    "optionFour": "Cheong Wa Dae",
+    "correctAns": 1,
+    "category": "Monuments"
+  },
+  {
+    "unique_id": 7,
+    "question": "Which Indian monument is located in Agra and is a UNESCO World Heritage Site?",
+    "optionOne": "Hawa Mahal",
+    "optionTwo": "Charminar",
+    "optionThree": "Qutub Minar",
+    "optionFour": "Taj Mahal",
+    "correctAns": 4,
+    "category": "Monuments"
+  },
+  {
+    "unique_id": 8,
+    "question": "Which monument is the largest and most famous structure in Delhi, India?",
+    "optionOne": "India Gate",
+    "optionTwo": "Red Fort",
+    "optionThree": "Humayun's Tomb",
+    "optionFour": "Lotus Temple",
+    "correctAns": 2,
+    "category": "Monuments"
+  },
+  {
+    "unique_id": 9,
+    "question": "Which Indian monument is a medieval sandstone fortification located in Rajasthan?",
+    "optionOne": "Amer Fort",
+    "optionTwo": "Golconda Fort",
+    "optionThree": "Jaisalmer Fort",
+    "optionFour": "Red Fort",
+    "correctAns": 3,
+    "category": "Monuments"
+  },
+  {
+    "unique_id": 10,
+    "question": "Which Indian monument is a group of structures built as a tribute to a beloved queen?",
+    "optionOne": "Hawa Mahal",
+    "optionTwo": "Victoria Memorial",
+    "optionThree": "Lotus Temple",
+    "optionFour": "Charminar",
+    "correctAns": 2,
+    "category": "Monuments"
+  },
+  {
+    "unique_id": 11,
+    "question": "Which flower is considered the national flower of India?",
+    "optionOne": "Lotus",
+    "optionTwo": "Rose",
+    "optionThree": "Sunflower",
+    "optionFour": "Jasmine",
+    "correctAns": 1,
+    "category": "Flowers"
+  },
+  {
+    "unique_id": 12,
+    "question": "Which flower is known as the 'Queen of Flowers' in India?",
+    "optionOne": "Marigold",
+    "optionTwo": "Hibiscus",
+    "optionThree": "Lotus",
+    "optionFour": "Rose",
+    "correctAns": 4,
+    "category": "Flowers"
+  },
+  {
+    "unique_id": 13,
+    "question": "Which flower is used extensively in Indian religious ceremonies and weddings?",
+    "optionOne": "Lotus",
+    "optionTwo": "Jasmine",
+    "optionThree": "Rose",
+    "optionFour": "Tulsi",
+    "correctAns": 2,
+    "category": "Flowers"
+  },
+  {
+    "unique_id": 14,
+    "question": "Which flower is often associated with festivals like Diwali and Holi in India?",
+    "optionOne": "Marigold",
+    "optionTwo": "Dahlia",
+    "optionThree": "Chrysanthemum",
+    "optionFour": "Lily",
+    "correctAns": 1,
+    "category": "Flowers"
+  },
+  {
+    "unique_id": 15,
+    "question": "Which flower is used to make garlands and is commonly seen in Indian weddings?",
+    "optionOne": "Sunflower",
+    "optionTwo": "Orchid",
+    "optionThree": "Jasmine",
+    "optionFour": "Rose",
+    "correctAns": 3,
+    "category": "Flowers"
+  }
+]
