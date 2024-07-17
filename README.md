@@ -1,8 +1,5 @@
 # replicator-quiz-demo
 
-
-Certainly! I'll provide a more comprehensive step-by-step guide on how to run this Quiz application with Couchbase Lite. Based on the context provided, here's a detailed guide:
-
 1. Environment Setup:
    - Install the latest version of Android Studio from the official website.
    - Ensure you have the Java Development Kit (JDK) installed on your system.
