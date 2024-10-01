@@ -295,14 +295,18 @@ class DatabaseManager(private val context: Context) {
         // Check if the database is initialized:
         checkInitialized()
 
-
-        // Create the query object:
+      // Create the query object:
         if (query == null) {
-            val sql = "SELECT unique_id, name, imagevect_l2, category " +
+//            val sql = "SELECT unique_id, name, imagevect_l2, category " +
+//                    "FROM $defaultImageCollection " +
+//                    "WHERE vector_match($INDEX_NAME, \$vector , 3)"
+
+            var sql = "SELECT unique_id, name, imagevect_l2, category " +
                     "FROM $defaultImageCollection " +
-                    "WHERE vector_match($INDEX_NAME, \$vector , 3)"
+                    "ORDER BY APPROX_VECTOR_DISTANCE(imagevect_l2, \$vector) " + "LIMIT 3"
             query = database!!.createQuery(sql)
         }
+
 
 
         // Set $vector parameter on the query:
