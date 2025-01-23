@@ -1,3 +1,4 @@
+
 package com.example.quizappbycouchbase
 
 
@@ -67,6 +68,7 @@ class DatabaseManager(private val context: Context) {
 //        Database.log.console.domains = LogDomain.ALL_DOMAINS
 //        Database.log.console.level = LogLevel.VERBOSE
         Log.i(TAG, "Database created: User")
+        CouchbaseLite.enableVectorSearch()
         initializeDatabases()
     }
 
@@ -113,7 +115,7 @@ class DatabaseManager(private val context: Context) {
 
         var url: URI? = null
         url = URI(
-            "urlAddress"
+            "wss://o36vgklioynwqtp5.apps.cloud.couchbase.com:4984/korea-demo"
         )
 
 
@@ -130,7 +132,7 @@ class DatabaseManager(private val context: Context) {
 
 
 
-        config.setAuthenticator(BasicAuthenticator("username", "password".toCharArray())) // <4>
+        config.setAuthenticator(BasicAuthenticator("shivay", "Shivay123!".toCharArray())) // <4>
 
 
         val replicator = Replicator(config)
@@ -220,6 +222,7 @@ class DatabaseManager(private val context: Context) {
                 imagesCategoryCollection?.save(mutableDocument)
             }
             Log.i("JSON", "ALL JSON ADDED")
+
             val config = VectorIndexConfiguration("imagevect_l2", 3, 3)
             config.encoding = VectorEncoding.none()
             imagesCategoryCollection!!.createIndex(INDEX_NAME, config)
@@ -298,11 +301,17 @@ class DatabaseManager(private val context: Context) {
 
         // Create the query object:
         if (query == null) {
-            val sql = "SELECT unique_id, name, imagevect_l2, category " +
+//            val sql = "SELECT unique_id, name, imagevect_l2, category " +
+//                    "FROM $defaultImageCollection " +
+//                    "WHERE vector_match($INDEX_NAME, \$vector , 3)"
+
+            var sql = "SELECT unique_id, name, imagevect_l2, category " +
                     "FROM $defaultImageCollection " +
-                    "WHERE vector_match($INDEX_NAME, \$vector , 3)"
+                    "ORDER BY APPROX_VECTOR_DISTANCE(imagevect_l2, \$vector) " + "LIMIT 3"
             query = database!!.createQuery(sql)
         }
+
+
 
 
         // Set $vector parameter on the query:
