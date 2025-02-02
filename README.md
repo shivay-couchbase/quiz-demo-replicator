@@ -72,6 +72,9 @@
     ```
     python app.py
     ```
+
+    Note: The AlexNet model only produces images of embedding size of 3 or 9 which might not be very accurate, instead you can use the CLIP model which produces image embeddings of 512 dimensions, if you wish to try out CLIP Model implementation, you can refer to the [Clip Model](https://github.com/shivay-couchbase/quiz-demo-replicator/tree/clip_Model) branch and instead of running `python app.py` you can run `python app1.py`.
+    
     - Now let's head back to our Android app
     - Select the emulator or connect a physical Android device.
     - Click on the "Run" button (green play icon) in Android Studio.

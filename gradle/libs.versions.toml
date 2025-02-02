@@ -9,9 +9,9 @@ appcompat = "1.6.1"
 material = "1.10.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
-couchbaseLiteVersion = "3.2.0-beta.1"
+couchbaseLiteVersion = "3.2.0"
 roomCompiler = "2.6.1"
-vectorSearch = "1.0.0-beta.1"
+vectorSearch = "1.0.0"
 retrofitversion = "2.9.0"
 
 [libraries]
