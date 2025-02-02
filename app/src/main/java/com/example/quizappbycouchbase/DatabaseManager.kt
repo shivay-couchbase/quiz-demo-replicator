@@ -223,7 +223,8 @@ class DatabaseManager(private val context: Context) {
             }
             Log.i("JSON", "ALL JSON ADDED")
 
-            val config = VectorIndexConfiguration("imagevect_l2", 3, 3)
+            val config = VectorIndexConfiguration("imagevect_l2", 512, 3)
+
             config.encoding = VectorEncoding.none()
             imagesCategoryCollection!!.createIndex(INDEX_NAME, config)
 
